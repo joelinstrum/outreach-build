@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home3/outreag2/public_html # Add /<app_folder> if required
-    - /bin/cp -R /home3/outreag2/outreach-build $DEPLOYPATH #Copy specific file to destination from root
+    - /bin/cp -R * $DEPLOYPATH #Copy specific file to destination from root
