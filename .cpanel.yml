@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home3/outreag2/public_html # Add /<app_folder> if required
+    - /bin/cp -R * $DEPLOYPATH #Copy specific file to destination from root
